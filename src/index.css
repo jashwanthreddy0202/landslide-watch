@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* Leaflet Dark Aesthetic Customization for Landslide Watch */
+.leaflet-container {
+  background-color: #050811 !important;
+  font-family: inherit !important;
+  outline: none;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #080d1a !important;
+  color: #f1f5f9 !important;
+  border: 1px solid rgba(56, 189, 248, 0.3) !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.8), 0 8px 10px -6px rgba(0, 0, 0, 0.8) !important;
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+  line-height: 1.4 !important;
+}
+
+.leaflet-popup-tip {
+  background: #080d1a !important;
+  border: 1px solid rgba(56, 189, 248, 0.3) !important;
+}
+
+.leaflet-control-attribution {
+  background: rgba(5, 8, 17, 0.75) !important;
+  color: #64748b !important;
+  font-size: 9px !important;
+  backdrop-filter: blur(4px);
+  border-radius: 4px;
+}
+
+.leaflet-control-attribution a {
+  color: #38bdf8 !important;
+}
+
